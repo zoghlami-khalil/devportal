@@ -134,7 +134,13 @@ entries:
               - file: docs/products/kafka/howto/configure-log-cleaner
               - file: docs/products/kafka/howto/prevent-full-disks
               - file: docs/products/kafka/howto/use-zookeeper
-          
+          # Work out what to call this directory
+          # Work out the proper title
+          # Work out the proper filename for the transferred file
+          - file: docs/products/kafka/howto/examples
+            title: Examples ((need proper name))
+            entries:
+              - file: docs/products/kafka/howto/5343895-python-examples-for-testing-aiven-for-apache-kafka
 
           - file: docs/products/kafka/howto/list-integration
             title: Integrations
